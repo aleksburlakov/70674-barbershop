@@ -1,0 +1,24 @@
+/*Styles for Barbershop*/
+body {
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: "Pt Sans Narrow";
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 42px;
+    color: black;
+    font-weight: bold;
+    font-family: "Pt Sans Narrow";
+}
+
+h2 {
+    font-size: 24px;
+    line-height: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: "Pt Sans Narrow";
+}
