@@ -7,11 +7,11 @@ body {
     font-family: "Pt Sans Narrow";
     
     background-color: #f4f1ee;
-    margin: 0px;
+    margin: 0;
 }
 
 h1 {
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 25px;
     font-size: 30px;
     line-height: 42px;
@@ -34,7 +34,7 @@ h2 {
     padding: 0 10px;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -79,7 +79,7 @@ main.container {
     width: 700px;
     float: right;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .products-block {
@@ -95,11 +95,11 @@ main.container {
 }
 
 .product-item:nth-child(3n) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .product-navigation-line {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .main-footer {
@@ -120,12 +120,12 @@ main.container {
 }
 
 .footer-copyright {
-  float: right;
-  width: 140px;
+    float: right;
+    width: 140px;
 }
 
 ul {
-    margin: 0px;
+    margin: 0;
 }
 
 .product {
@@ -150,11 +150,10 @@ ul {
 }
 
 .photoset-item:last-child {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .about-product {
     float: right;
     width: 390px;
 }
-
